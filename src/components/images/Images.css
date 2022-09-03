@@ -1,0 +1,33 @@
+.container button {
+  width: 200px;
+  height: 40px;
+  border: 1px solid maroon;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+
+.container p {
+  color: maroon;
+  font-size: 20px;
+  text-align: center;
+}
+
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.images li {
+  margin: 20px;
+}
+
+.images li img {
+  width: 250px;
+  height: 200px;
+  border-radius: 20px;
+  object-fit: cover;
+}

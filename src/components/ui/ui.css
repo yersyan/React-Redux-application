@@ -1,0 +1,18 @@
+.preloader {
+    font-size: 64px;
+    margin: 20px auto;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.preloader svg {
+    animation: load 1s linear infinite;
+}
+
+@keyframes load {
+    to {
+        transform: rotate(360deg);
+    }
+}

@@ -1,0 +1,32 @@
+.categories {
+    display: flex;
+    justify-content: center;
+
+}
+
+.categories li {
+    cursor: pointer;
+    margin: 0 10px;
+    text-transform: capitalize;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.categories li:hover {
+    color: maroon;
+}
+
+.categories li.active {
+    border-bottom: 2px solid maroon;
+    color: maroon;
+}
+
+@media all and (max-width: 768px){
+    .categories {
+        flex-direction: column;
+        max-width: 150px;
+        margin: 0 auto;
+    }
+}
